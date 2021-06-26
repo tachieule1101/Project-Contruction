@@ -1,0 +1,162 @@
+/* body */
+body{
+    margin: 0;
+    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+}
+/* container */
+
+
+
+/* top panel */
+.inlineList li{
+    display:inline;
+    padding: 0;
+    white-space: nowrap;
+}
+.row a{
+    font-size: 0.9rem;
+
+}
+a{
+    text-decoration: none;
+}
+.rd-navbar-top-panel a{
+    color: #fff;
+}
+a:hover{
+    color: #f9b707;
+}
+i{
+    color: #f9b707;
+}
+.rd-navbar-top-panel{
+    background: #272727;
+    padding: 5px 5px 0 0;
+}
+.top-panel-left{
+float: left;
+}
+.top-panel-right{
+    text-align: right !important;
+}
+.top-panel-right i{
+    padding-right: 5px;
+    color: #fff !important;
+}
+.fa-phone-alt{
+    font-size: 1.2rem;
+}   
+.fa-map-marker-alt{
+    font-size: 1.2rem;
+}
+/* navbar */
+.active{
+    color: #f9b707 !important;
+}
+.button{
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.rd-navbar-wrap a{
+    color: #fff;
+}
+.active{
+    color: #f9b707;
+}
+.bg-dark{
+    background-color: #272727 !important;
+}
+.justify-content-center{
+    justify-content: center;
+    margin-bottom: 0 !important;
+}
+/* banner */
+.banner{
+    padding-top: 200px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    background-image: url(../img/slider-slide-2-1920x1080.jpg);
+    color: #fff;
+}
+.button-primary:hover{
+    color: #fff;
+    background-color: #272727;
+}
+.button-primary{
+    padding: 20px 50px;
+    color: #fff;
+    background-color: #f9b707;
+    border-color: #f9b707;
+    border-radius: 3px;
+}
+.banner-title{
+    font-size: 5rem;
+}
+.banner-content{
+    padding-top: 5px;
+    padding-bottom: 70px;
+    font-size: 2rem;
+}
+/* Our Service */
+.heading-decorated{
+    font-size: rem;
+    padding: 50px 0;
+}
+.blurb-circle-icon{
+    padding: 30px;
+    border-radius: 50%;
+    background-color: #f9b707;
+}
+.blurb-circle-icon i{
+    color: white;
+    font-size: 40px;
+}
+.blurb-circle{
+    text-align: left;
+}
+.d-flex-left{
+    border-radius: 50%;
+}
+.d-flex-body{
+    margin-left: 15px;
+}
+.blurb-title{
+    font-size: 1.2rem;
+}
+.blurb-title{
+    color: #272727;
+}
+.blurb-title:hover{
+    color: #f9b707;
+}
+.row-50{
+    margin-bottom: 50px;
+}
+.blurb-content{
+    padding: 20px 0;
+    color: #888;
+}
+.heading-6{
+    font-size: 18px;
+    line-height: 1.8;
+}
+/* Our History */
+.our-history{
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+.button-primary-ourhistory{
+    padding: 20px 30px;
+    color: #fff;
+    background-color: #f9b707;
+    border-color: #f9b707;
+    border-radius: 3px;
+}
+.button-primary-ourhistory:hover{
+    color: #fff;
+    background-color: #272727;
+}
+.img-home{
+    padding: 20px 0;
+}
