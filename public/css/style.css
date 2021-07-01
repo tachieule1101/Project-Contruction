@@ -56,9 +56,9 @@ i{
 .active{
     color: #f9b707 !important;
 }
-.button{
+/* .button{
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-}
+} */
 .rd-navbar-wrap a{
     color: #fff;
 }
@@ -103,7 +103,6 @@ i{
 }
 /* Our Service */
 .heading-decorated{
-    font-size: rem;
     padding: 50px 0;
 }
 .blurb-circle-icon{
