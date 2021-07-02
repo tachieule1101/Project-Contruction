@@ -53,6 +53,12 @@ i{
     font-size: 1.2rem;
 }
 /* navbar */
+.nav-link{
+    margin-right: 10px;
+}
+.fa-search{
+    color: #888 !important;
+}
 .rd-navbar-wrap{
     text-transform: uppercase;
 }
@@ -178,9 +184,6 @@ i{
 .button-primary-ourhistory:hover{
     color: #fff;
     background-color: #272727;
-}
-.img-home{
-    padding: 20px 0;
 }
 /* Thumb creative */
 .no-gutters > .col, .no-gutters > [class*="col-"]{
