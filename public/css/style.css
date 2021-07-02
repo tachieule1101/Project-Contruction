@@ -132,6 +132,7 @@ i{
     border-radius: 2px;
 } */
 .blurb-circle-icon{
+    text-align: center;
     padding: 30px;
     border-radius: 50%;
     background-color: #f9b707;
@@ -318,4 +319,16 @@ dt, dd{
 }
 .bg-gray-darker{
     background-color: #272727;
+}
+/* Responsive */
+@media screen and (min-width: 769px) {
+    /* STYLES HERE */
+}
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+    /* STYLES HERE */
+}
+
+@media only screen and (max-device-width: 480px) {
+    /* STYLES HERE */
 }
