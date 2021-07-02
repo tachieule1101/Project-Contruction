@@ -5,8 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="./public/css/css/fontawesome-free-5.15.3-web/css/all.min.css">
     <link rel="stylesheet" href="./public/css/bootstrap.min.css">
     <link rel="stylesheet" href="./public/css/style.css">
@@ -57,68 +55,93 @@
     </div>
     <!-- Navbar -->
     <div class="rd-navbar-wrap">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
             <!--RD Navbar Top Panel -->
-            <div class="container">
+            <div class="container container-fluid">
                 <a href=""><img src="./public/img/logo-inverse-659x78.png" alt="" width="300" height="30"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent">
+                    <span class="fas fa-angle-down"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="d-flex ms-auto justify-content-center">
+                    <ul class="navbar-nav ms-auto">
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle active" aria-current="page" href="#"
-                                role="button" data-bs-toggle="dropdown" aria-expanded="false">Home</a>
+                            <a class="nav-link dropdown-toggle active" href="#" role="button" data-toggle="dropdown"
+                                aria-expanded="false">Home</a>
+                            <!-- dropdown menu -->
+                            <ul class="dropdown-menu bg-dark">
+                                <li><a class="dropdown-item" href="#">Headers <i class="fas fa-angle-down"></i></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#">Footers <i class="fas fa-angle-down"></i></a></li>
+                            </ul>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">About</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                aria-expanded="false">
                                 Service
                             </a>
+                            <!-- dropdown menu -->
+                            <ul class="dropdown-menu bg-dark">
+                                <li><a class="dropdown-item" href="#">Single Service</a>
+                                </li>
+                            </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                aria-expanded="false">
                                 Project
                             </a>
+                            <!-- dropdown menu -->
+                            <ul class="dropdown-menu bg-dark">
+                                <li><a class="dropdown-item" href="#">Project Category</a>
+                                </li>
+                                <li><a class="dropdown-item" href="#">Single Project</a></li>
+                            </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                aria-expanded="false">
                                 Page
                             </a>
+                            <!-- dropdown menu -->
+                            <ul class="dropdown-menu bg-dark">
+                                <li><a class="dropdown-item" href="#">GENERAL</a></li>
+                                <li><a class="dropdown-item" href="#">SPECIAL PAGES</a></li>
+                                <li><a class="dropdown-item" href="#">ELEMENTS</a></li>
+                            </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                aria-expanded="false">
                                 Blog
                             </a>
+                            <!-- dropdown menu -->
+                            <ul class="dropdown-menu bg-dark">
+                                <li><a class="dropdown-item" href="#">GENERAL
+                                        <i class="fas fa-angle-down"></i></a></li>
+                                <li><a class="dropdown-item" href="#">SPECIAL PAGES
+                                        <i class="fas fa-angle-down"></i>
+                                    </a></li>
+                                <li><a class="dropdown-item" href="#">ELEMENTS
+                                        <i class="fas fa-angle-down"></i>
+                                    </a></li>
+                            </ul>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contact</a>
                         </li>
+
                     </ul>
-                    <form class="d-flex ms-auto">
-                        <div class="input-group rounded">
-                            <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
-                                aria-describedby="search-addon" />
-                            <span class="input-group-text border-0" id="search-addon">
-                                <i class="fas fa-search"></i>
-                            </span>
-                        </div>
-                    </form>
                 </div>
             </div>
         </nav>
     </div>
 
     <!-- banner -->
-    <div class="img-fluid banner">
+    <!-- <div class="img-fluid banner">
         <div class="container">
             <div class="row justify-content-lg-center">
                 <div class="col-lg-10">
@@ -127,9 +150,50 @@
                     <a href="index.html" class="button button-primary">SEE OUR RECENT PROJECTS</a>
                 </div>
             </div>
-
         </div>
-    </div>
+    </div> -->
+    <!-- test banner -->
+    <section id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="container carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./public/img/slider-slide-1-1920x1080.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="banner-title">Construction</h1>
+                    <h4 class="banner-content">See how a 10-stories tower's being built, in a time-lapse!</h4>
+                    <a href="index.html" class="button button-primary">SEE OUR RECENT PROJECTS</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./public/img/slider-slide-2-1920x1080.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="banner-title">Discounts</h1>
+                    <h4 class="banner-content">Summer discounts for big construction projects!</h4>
+                    <a href="index.html" class="button button-primary">SEE OUR RECENT PROJECTS</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./public/img/slider-slide-3-1920x1080.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="banner-title">Projects</h1>
+                    <h4 class="banner-content">This year we took more complex constructions than ever before...</h4>
+                    <a href="index.html" class="button button-primary">SEE OUR RECENT PROJECTS</a>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </section>
 
     <!-- Our service -->
     <section class="section-md bg-default text-center">
@@ -297,13 +361,6 @@
                             <img src="./public/img/project-2-480x361.jpg" class="img-fluid" alt="">
                         </figure>
                     </div>
-                    <!-- <div class="thumb-creative-content">   
-                            <h6 class="thumb-create-title">
-                                <a href="#">COMMERCIAL</a>
-                            </h6>
-                            <p>It’s probably the most diverse category of construction to work in. But we’ve got experience…</p>
-                            <a class="button button-link" href="#">View projects</a>
-                    </div> -->
                 </div>
                 <div class="col-sm-6 col-lg-4 col-xl-3">
                     <div class="thumb-creative-back">
@@ -311,13 +368,6 @@
                             <img src="./public/img/project-3-480x361.jpg" class="img-fluid" alt="">
                         </figure>
                     </div>
-                    <!-- <div class="thumb-creative-content">   
-                            <h6 class="thumb-create-title">
-                                <a href="#">COMMERCIAL</a>
-                            </h6>
-                            <p>It’s probably the most diverse category of construction to work in. But we’ve got experience…</p>
-                            <a class="button button-link" href="#">View projects</a>
-                    </div> -->
                 </div>
                 <div class="col-sm-6 col-lg-4 col-xl-3">
                     <div class="thumb-creative-back">
@@ -325,13 +375,6 @@
                             <img src="./public/img/project-4-480x361.jpg" class="img-fluid" alt="">
                         </figure>
                     </div>
-                    <!-- <div class="thumb-creative-content">   
-                            <h6 class="thumb-create-title">
-                                <a href="#">COMMERCIAL</a>
-                            </h6>
-                            <p>It’s probably the most diverse category of construction to work in. But we’ve got experience…</p>
-                            <a class="button button-link" href="#">View projects</a>
-                    </div> -->
                 </div>
                 <div class="col-sm-6 col-lg-4 col-xl-3">
                     <div class="thumb-creative-back">
@@ -339,13 +382,6 @@
                             <img src="./public/img/project-5-480x361.jpg" class="img-fluid" alt="">
                         </figure>
                     </div>
-                    <!-- <div class="thumb-creative-content">   
-                            <h6 class="thumb-create-title">
-                                <a href="#">COMMERCIAL</a>
-                            </h6>
-                            <p>It’s probably the most diverse category of construction to work in. But we’ve got experience…</p>
-                            <a class="button button-link" href="#">View projects</a>
-                    </div> -->
                 </div>
                 <div class="col-sm-6 col-lg-4 col-xl-3">
                     <div class="thumb-creative-back">
@@ -353,13 +389,6 @@
                             <img src="./public/img/project-6-480x361.jpg" class="img-fluid" alt="">
                         </figure>
                     </div>
-                    <!-- <div class="thumb-creative-content">   
-                            <h6 class="thumb-create-title">
-                                <a href="#">COMMERCIAL</a>
-                            </h6>
-                            <p>It’s probably the most diverse category of construction to work in. But we’ve got experience…</p>
-                            <a class="button button-link" href="#">View projects</a>
-                    </div> -->
                 </div>
                 <div class="col-sm-6 col-lg-4 col-xl-3">
                     <div class="thumb-creative-back">
@@ -367,13 +396,6 @@
                             <img src="./public/img/project-7-480x361.jpg" class="img-fluid" alt="">
                         </figure>
                     </div>
-                    <!-- <div class="thumb-creative-content">   
-                            <h6 class="thumb-create-title">
-                                <a href="#">COMMERCIAL</a>
-                            </h6>
-                            <p>It’s probably the most diverse category of construction to work in. But we’ve got experience…</p>
-                            <a class="button button-link" href="#">View projects</a>
-                    </div> -->
                 </div>
                 <div class="col-sm-6 col-lg-4 col-xl-3">
                     <div class="thumb-creative-back">
@@ -381,13 +403,6 @@
                             <img src="./public/img/project-8-480x361.jpg" class="img-fluid" alt="">
                         </figure>
                     </div>
-                    <!-- <div class="thumb-creative-content">   
-                            <h6 class="thumb-create-title">
-                                <a href="#">COMMERCIAL</a>
-                            </h6>
-                            <p>It’s probably the most diverse category of construction to work in. But we’ve got experience…</p>
-                            <a class="button button-link" href="#">View projects</a>
-                    </div> -->
                 </div>
             </div>
         </div>
@@ -596,6 +611,17 @@
             </div>
         </div>
     </footer>
+
+    <!-- bootstrap Js -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

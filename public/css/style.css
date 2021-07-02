@@ -53,12 +53,12 @@ i{
     font-size: 1.2rem;
 }
 /* navbar */
+.rd-navbar-wrap{
+    text-transform: uppercase;
+}
 .active{
     color: #f9b707 !important;
 }
-/* .button{
-    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-} */
 .rd-navbar-wrap a{
     color: #fff;
 }
@@ -68,11 +68,17 @@ i{
 .bg-dark{
     background-color: #272727 !important;
 }
-.justify-content-center{
-    justify-content: center;
-    margin-bottom: 0 !important;
+.dropdown-menu{
+    text-transform: none;
+    font-size: 0.8rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.navbar-collapse a:hover{
+    background-color: #272727;
+    color: #f9b707 !important;
 }
 /* banner */
+
 .banner{
     padding-top: 200px;
     height: 600px;
@@ -94,6 +100,7 @@ i{
     border-radius: 3px;
 }
 .banner-title{
+    text-transform: uppercase;
     font-size: 5rem;
 }
 .banner-content{
@@ -101,10 +108,23 @@ i{
     padding-bottom: 70px;
     font-size: 2rem;
 }
+.carousel-caption{
+    padding-bottom: 10rem;
+}
 /* Our Service */
 .heading-decorated{
     padding: 50px 0;
 }
+/* dấu gạch ngang */
+/* .heading-decorated::before{
+    content: '';
+    position: relative;
+    height: 2px;
+    width: 35px;
+    background: #f9b707;
+    margin-bottom: 20px;
+    border-radius: 2px;
+} */
 .blurb-circle-icon{
     padding: 30px;
     border-radius: 50%;
